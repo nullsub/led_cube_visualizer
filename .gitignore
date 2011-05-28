@@ -1,4 +1,7 @@
 !.gitignore
 *.o
-*.so
-*.out
+*.elf
+*.hex
+*.map
+*.swp
+
