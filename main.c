@@ -1,12 +1,7 @@
-
-
 #include "led_matrix.h"
 #include "cube_animations.h"
 #include <util/delay.h>
 #include <stdlib.h>
-
-
-
 
 int main(){
 	led_matrix_init();
@@ -28,8 +23,5 @@ int main(){
 	animation3.next = &animation1;
 	set_animation(&animation1);
 	while(1){
-			
 	}
-
 }
-
