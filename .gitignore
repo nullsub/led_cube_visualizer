@@ -4,4 +4,4 @@
 *.hex
 *.map
 *.swp
-
+build/*

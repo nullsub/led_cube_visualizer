@@ -73,5 +73,4 @@ build/%.o : %.asm
 clean:
 	rm -rf build/*
 
-
-
+$(shell mkdir -p build)
